@@ -65,6 +65,13 @@ h3 {
     @extend .fw-h3;
 }
 
+h1[data-highlight]::before{
+    content: attr(data-highlight);
+    display: block;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    opacity: 0.5;
+}
 
 body {
     @extend .ft-default;
