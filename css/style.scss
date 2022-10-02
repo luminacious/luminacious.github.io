@@ -40,6 +40,11 @@
     margin-top: -3.5rem;
 }
 
+.bg-splash-home {
+    background-image: url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);
+    background-size: cover;
+}
+
 h1 {
     @extend .fs-h1;
     @extend .fw-h1;
@@ -58,7 +63,7 @@ h3 {
 
 body {
     @extend .ft-default;
-    font-size: 0.5rem;
+    font-size: 1rem;
 }
 
 .navbar-brand {
