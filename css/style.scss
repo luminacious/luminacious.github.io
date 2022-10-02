@@ -36,6 +36,10 @@
     padding-bottom: 1em;
 }
 
+.mt-n3 {
+    margin-top: -3.5rem;
+}
+
 h1 {
     @extend .fs-h1;
     @extend .fw-h1;
@@ -51,11 +55,14 @@ h3 {
     @extend .fw-h3;
 }
 
+
 body {
     @extend .ft-default;
-    padding: 5rem;
     font-size: 0.5rem;
+}
 
+.navbar-brand {
+    @extend .ft-brand;
 }
 
 .content {
