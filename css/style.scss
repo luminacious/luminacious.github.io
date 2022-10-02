@@ -2,7 +2,8 @@
 ---
 .ft-brand {
     //font-family: "Alegreya Sans SC";
-    font-family: "Permanent Marker";
+    //font-family: "Permanent Marker";
+    font-family: "Mansalva";
 }
 
 .ft-default {
@@ -81,13 +82,14 @@ body {
 
 .navbar-brand {
     @extend .ft-brand;
+    letter-spacing: 0.1em;
 }
 
 .navbar-brand::after{
     content: "\00AE";
-    vertical-align: 17%;
-    font-size: 0.8em;
-    margin-left: 0.2em;
+    //vertical-align: 17%;
+    //font-size: 0.8em;
+    //margin-left: 0.2em;
 }
 
 .content {
