@@ -1,7 +1,8 @@
 ---
 ---
 .ft-brand {
-    font-family: "Alegreya Sans SC";
+    //font-family: "Alegreya Sans SC";
+    font-family: "Permanent Marker";
 }
 
 .ft-default {
@@ -80,6 +81,13 @@ body {
 
 .navbar-brand {
     @extend .ft-brand;
+}
+
+.navbar-brand::after{
+    content: "\00AE";
+    vertical-align: 17%;
+    font-size: 0.8em;
+    margin-left: 0.2em;
 }
 
 .content {
