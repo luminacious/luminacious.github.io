@@ -1,0 +1,68 @@
+---
+---
+.ft-brand {
+    font-family: "Alegreya Sans SC";
+}
+
+.ft-default {
+    font-family: "Montserrat";
+}
+
+.fw-h1 {
+    font-weight: 900;
+}
+
+.fw-h2 {
+    font-weight: 700;
+}
+
+.fw-h3 {
+    font-weight: 700;
+}
+
+.fs-h1 {
+    font-size: 2.39em;
+}
+
+.fs-h2 {
+    font-size: 1.93em;
+}
+
+.fs-h3 {
+    font-size: 1.2em;
+}
+
+.cp-d {
+    padding-bottom: 1em;
+}
+
+h1 {
+    @extend .fs-h1;
+    @extend .fw-h1;
+}
+
+h2 {
+    @extend .fs-h2;
+    @extend .fw-h2;
+}
+
+h3 {
+    @extend .fs-h3;
+    @extend .fw-h3;
+}
+
+body {
+    @extend .ft-default;
+    padding: 5rem;
+    font-size: 0.5rem;
+
+}
+
+.content {
+    font-size: 1rem;
+
+    p, ul, ol {
+        @extend .cp-d;
+    }
+}
+
