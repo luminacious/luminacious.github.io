@@ -1,5 +1,9 @@
 ---
 ---
+:root {
+    --bs-secondary-rgb: 255,0,0;
+}
+
 .ft-brand {
     //font-family: "Alegreya Sans SC";
     //font-family: "Permanent Marker";
@@ -47,6 +51,7 @@
     margin-top: 10em;
 }
 
+
 .bg-image-default {
     background-size: cover;
     background-position: center;
@@ -93,6 +98,7 @@ body {
 .navbar-brand {
     @extend .ft-brand;
     letter-spacing: 0.1em;
+    text-shadow: 0 0 1em black;
 }
 
 .navbar-brand::after{
