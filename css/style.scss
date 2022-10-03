@@ -2,7 +2,12 @@
 ---
 :root {
     --bs-secondary-rgb: 255,0,0;
+    --bs-navbar-brand-font-size: 1.25em;
     font-size: 0.8rem;
+}
+
+.navbar {
+    --bs-navbar-brand-font-size: 1.25em;
 }
 
 .ft-brand {
@@ -45,7 +50,7 @@
 
 .mt-n3 {
     //margin-top: -3.5rem;
-    margin-top: -3.5em;
+    margin-top: -5em;
 }
 
 .mt-10 {
