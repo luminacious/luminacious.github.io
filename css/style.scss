@@ -1,17 +1,13 @@
 ---
 ---
 :root {
-    --bs-secondary-rgb: 255,0,0;
+    --bs-primary-rgb: 255,0,0;
     --bs-navbar-brand-font-size: 1.25em;
     font-size: 0.8rem;
 }
 
 .navbar {
     --bs-navbar-brand-font-size: 1.25em;
-}
-
-.btn {
-    //--bs-btn-font-size: 1em;
 }
 
 .ft-brand {
@@ -46,6 +42,10 @@
 
 .fs-h3 {
     font-size: 1.2em;
+}
+
+.cp-d {
+    padding-bottom: 1em;
 }
 
 .mt-n3 {
