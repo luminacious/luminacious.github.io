@@ -82,7 +82,7 @@ h3 {
     @extend .fw-h3;
 }
 
-h1[data-highlight]::before{
+[data-highlight]::before{
     content: attr(data-highlight);
     display: block;
     text-transform: uppercase;
