@@ -66,6 +66,10 @@
     background-position: center;
 }
 
+.shadow-deep {
+    box-shadow: 0 0 10px var(--bs-dark);
+}
+
 .image-default {
     object-fit: cover;
 }
