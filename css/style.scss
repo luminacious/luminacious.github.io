@@ -1,8 +1,8 @@
 ---
 ---
 :root {
+    --bs-dark: #212529;
     --bs-primary-rgb: 255,0,0;
-    --bs-navbar-brand-font-size: 1.25em;
     font-size: 0.8rem;
 }
 
@@ -51,6 +51,14 @@
 .mt-n3 {
     //margin-top: -3.5rem;
     margin-top: -5em;
+}
+
+.mt-n6 {
+    margin-top: -12em;
+}
+
+.bg-overlay-gradient-bottom-dark {
+    background: linear-gradient(to bottom, transparent, var(--bs-dark));
 }
 
 .bg-image-default {
