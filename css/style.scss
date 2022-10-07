@@ -10,6 +10,46 @@
     --bs-navbar-brand-font-size: 1.25em;
 }
 
+.base-fs-s { font-size: 0.8em; }
+.base-fs-l { font-size: 1.2em; }
+
+
+@media only screen and (min-width: 0px) { //xs
+    .fs-s { font-size: 0.8em; }
+    .fs-l { font-size: 1.2em; }
+}
+
+@media only screen and (min-width: 576px) { //sm
+    .fs-sm-s { font-size: 0.8em; }
+    .fs-sm-l { font-size: 1.2em; }
+}
+
+@media only screen and (min-width: 768px) { //md
+    .fs-md-s { font-size: 0.8em; }
+    .fs-md-l { font-size: 1.2em; }
+}
+
+@media only screen and (min-width: 992px) { //lg
+    .fs-lg-s { font-size: 0.8em; }
+    .fs-lg-l { font-size: 1.2em; }
+}
+
+@media only screen and (min-width: 1200px) { //xl
+    .fs-xl-s { font-size: 0.8em; }
+    .fs-xl-l { font-size: 1.2em; }
+}
+
+@media only screen and (min-width: 1400px) { //xxl
+    .fs-xxl-s { font-size: 0.8em; }
+    .fs-xxl-l { font-size: 1.2em; }
+}
+
+
+
+
+
+
+
 .ft-brand {
     //font-family: "Alegreya Sans SC";
     //font-family: "Permanent Marker";
@@ -73,6 +113,27 @@
 .image-default {
     object-fit: cover;
 }
+
+.aspect-ratio-4-3 {
+    aspect-ratio: 4/3;
+}
+
+.aspect-ratio-3-4 {
+    aspect-ratio: 3/4;
+}
+
+.aspect-ratio-1-1 {
+    aspect-ratio: 1/1;
+}
+
+.aspect-ratio-1-2 {
+    aspect-ratio: 1/2;
+}
+
+.aspect-ratio-2-1 {
+    aspect-ratio: 2/1;
+}
+
 
 .hero-3 {
     min-height: 45em;
