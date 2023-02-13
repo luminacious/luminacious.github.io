@@ -16,6 +16,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,600;0,700;0,900;1,100;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
   <body class="bg-dark text-light">
 
@@ -71,10 +74,10 @@
 <h1 class="mt-n3">Welcome to Luminacious</h1>
 
 
-
-<div class="container-fluid bg-image-default g-0" style="background-image:url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80);">
+<!--url(https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80)-->
+<div class="container-fluid bg-image-default g-0" style="background-image:url({{page.splash}});">
     <div class="container d-flex text-light hero-3">
-        <div class="container mb-3 mb-sm-5 mt-auto fs-3">
+        <div class="container mb-3 mb-sm-5 mt-auto fs-3 hero-content-3">
             <h2 class="fs-h1 fw-h1" data-highlight="highlight"><a class="text-light text-decoration-none" href="#">Blazor WASM C# JWT auth flow</a></h1>
             <p>
                 <a class="text-light text-decoration-none" href="#">
@@ -94,7 +97,7 @@
 
 
 <div class="container mt-n6 fs-6 p-4">
-    <div class="container bg-primary text-light p-4 px-sm-5 rounded-4 shadow-deep">
+    <div class="container text-light p-4 px-sm-5 rounded-4 bg-frost splash-follower">
         <h2 class="fs-6 text-uppercase text-white-50">What's trending now? <a class="d-none d-sm-block float-end text-light text-decoration-none fw-lighter" href="#">View More</a></h2>
         <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
             <div class="col my-2">
