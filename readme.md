@@ -1,5 +1,3 @@
----
----
 # Luminacious
 
 ## Copyright & Intellectual Property Rights
