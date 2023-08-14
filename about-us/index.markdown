@@ -41,7 +41,7 @@ Founded on the principles of cutting-edge innovation and unwavering dedication, 
 
 ### Building on Three Decades of Excellence
 
-With over 30 years of experience, our foundation is built on a legacy of excellence, dedication, and a deep-seated passion for software craftsmanship. We've honed our expertise across various technological eras, always staying at the forefront.
+With over 20 years of experience, our foundation is built on a legacy of excellence, dedication, and a deep-seated passion for software craftsmanship. We've honed our expertise across various technological eras, always staying at the forefront.
 
 ### The Power of Collaboration
 
